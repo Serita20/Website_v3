@@ -62,7 +62,10 @@ Dumsile Maduna
 
 <br>
 
-Eke Arua
+<div style="text-align: right"> Eke Arua </div>
+<img style="float: right;" src="img/ekepic.jpg">
+
+<br> <div style="text-align: justify"> Eke is currently in the Biostatistics track of the MPH at UCT. He has a BA (Economics and Statistics) and a MA (Statistics) from the University of Botswana. He is employed part-time as a research assistant in the department of Epidemiology and Biostatistics. His current interest lies in infant pneumonia and its associated risk factors. </div>
 
 <br>
 
