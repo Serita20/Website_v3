@@ -176,9 +176,28 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/#posts" data-target="#posts">
+          <a class="nav-link" href="/#projects" data-target="#projects">
             
-            <span>Outputs</span>
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#talks" data-target="#talks">
+            
+            <span>Events</span>
             
           </a>
         </li>
@@ -345,7 +364,7 @@ url('/img/headers/biostatheader.png');
 
 <p>We are a collection of biostatisticians and students working on various topics in the <a href="http://www.publichealth.uct.ac.za/phfm_epidemiology-and-biostatistics" target="_blank">Division of Epidemiology &amp; Biostatistics</a>, School of Public Health &amp; Family Medicine at the University of Cape Town. Current research themes are around viral load monitoring and all of the associated statistical modelling of difficult longitudinal data.</p>
 
-<p>See the <a href="https://maialesosky.wordpress.com/contact/" target="_blank">contact</a> page for visiting and mailing address as well as other contact details. Email preferred. We work with the <a href="https://caperuser.wordpress.com/" target="_blank">Cape-R Users Group</a> to promote R programming around the Cape and wider afield, please join if you are local to Cape Town - twitter: <a href="https://twitter.com/CapeRUser/" target="_blank">CapeRUser</a></p>
+<p>We work with the <a href="https://caperuser.wordpress.com/" target="_blank">Cape-R Users Group</a> to promote R programming around the Cape and wider afield, please join if you are local to Cape Town - twitter: <a href="https://twitter.com/CapeRUser/" target="_blank">CapeRUser</a></p>
 
 <p>We also run a regular statistical methods seminar series on the Health Sciences Faculty – announced on web and via twitter:  <a href="https://twitter.com/EpiBiostats_UCT/" target="_blank">EpiBiostats_UCT</a></p>
 
@@ -411,9 +430,9 @@ url('/img/headers/biostatheader.png');
     
   
   <div class="col-md-4">
-    <div class="featurette-icon"><i class="fas fa-camera-retro"></i></div>
-    <h3>Photography</h3>
-    <p>10%</p>
+    <div class="featurette-icon"><i class="fas fa-globe-africa"></i></div>
+    <h3>Research</h3>
+    <p>70%</p>
   </div>
   
 </div>
@@ -720,17 +739,15 @@ url('/img/headers/biostatheader.png');
   
   
   
-  <section id="talks" class="home-section">
+  <section id="projects" class="home-section">
     <div class="container">
       
 
 
 
-
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
-    <h1>Recent &amp; Upcoming Talks</h1>
-    
+    <h1>Projects</h1>
     
   </div>
   <div class="col-12 col-lg-8">
@@ -739,51 +756,101 @@ url('/img/headers/biostatheader.png');
     
 
     
-    
 
+    
+    
+    
     
       
-        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
-  <i class="fas fa-calendar-alt pub-icon" aria-hidden="true"></i>
-  <span itemprop="name"><a href="/talk/example-talk/">Example Talk</a></span>
-  <div itemprop="startDate">
-    
-    Jun 1, 2030
-    
-      1:00 PM
-    
-  </div>
-  <div class="talk-metadata">
-    
-            Academic Theme Conference
-    
-  </div>
-  <div class="talk-links">
     
 
+    <span class="d-none default-project-filter">*</span>
 
+    
+    
+    <div class="project-toolbar">
+      <div class="project-filters">
+        <div class="btn-toolbar">
+          <div class="btn-group flex-wrap">
+            
+            
+            
+                
+              
+              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
+            
+            
+            
+                
+              
+              <a href="#" data-filter=".deep-learning" class="btn btn-primary btn-lg">Deep Learning</a>
+            
+            
+            
+                
+              
+              <a href="#" data-filter=".demo" class="btn btn-primary btn-lg">Other</a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
 
+    
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/example-slides" target="_blank">
-  Slides
-</a>
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/deep-learning/">
-    Project
-  </a>
-  
-
-
-
-  </div>
-</div>
+    <div class="row isotope projects-container js-layout-masonry">
 
       
+      
+      
+      
+      <div class="col-12 col-md-6 col-lg-4 project-item isotope-item deep-learning">
+        <div class="card">
+          
+          <a href="/project/deep-learning/" title="" class="card-image hover-overlay"
+             >
+            <img src="/img/bubbles.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="/project/deep-learning/" >Deep Learning</a></h4>
+            <div class="card-desription">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="col-12 col-md-6 col-lg-4 project-item isotope-item demo">
+        <div class="card">
+          
+          <a href="http://example.org" title="" class="card-image hover-overlay"
+             target="_blank">
+            <img src="/img/boards.jpg" alt="" class="img-responsive">
+          </a>
+          
+          <div class="card-text">
+            <h4><a href="http://example.org" target="_blank">External Project</a></h4>
+            <div class="card-desription">
+              <p>An example of linking directly to an external project website using <code>external_link</code>.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
+    </div>
+
     
+
   </div>
 </div>
 
@@ -804,7 +871,7 @@ url('/img/headers/biostatheader.png');
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
 
-    <h1>Recent Posts</h1>
+    <h1>Outputs</h1>
     
     
 
@@ -1012,15 +1079,17 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   
   
   
-  <section id="projects" class="home-section">
+  <section id="talks" class="home-section">
     <div class="container">
       
 
 
 
+
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
-    <h1>Projects</h1>
+    <h1>Recent &amp; Upcoming Events</h1>
+    
     
   </div>
   <div class="col-12 col-lg-8">
@@ -1029,101 +1098,51 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     
 
     
-
-    
-    
-    
-    
-      
-    
-
-    <span class="d-none default-project-filter">*</span>
-
-    
-    
-    <div class="project-toolbar">
-      <div class="project-filters">
-        <div class="btn-toolbar">
-          <div class="btn-group flex-wrap">
-            
-            
-            
-                
-              
-              <a href="#" data-filter="*" class="btn btn-primary btn-lg active">All</a>
-            
-            
-            
-                
-              
-              <a href="#" data-filter=".deep-learning" class="btn btn-primary btn-lg">Deep Learning</a>
-            
-            
-            
-                
-              
-              <a href="#" data-filter=".demo" class="btn btn-primary btn-lg">Other</a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-    
     
 
     
-
-    <div class="row isotope projects-container js-layout-masonry">
-
       
-      
-      
-      
-      <div class="col-12 col-md-6 col-lg-4 project-item isotope-item deep-learning">
-        <div class="card">
-          
-          <a href="/project/deep-learning/" title="" class="card-image hover-overlay"
-             >
-            <img src="/img/bubbles.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="/project/deep-learning/" >Deep Learning</a></h4>
-            <div class="card-desription">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      
-      
-      
-      
-      
-      
-      <div class="col-12 col-md-6 col-lg-4 project-item isotope-item demo">
-        <div class="card">
-          
-          <a href="http://example.org" title="" class="card-image hover-overlay"
-             target="_blank">
-            <img src="/img/boards.jpg" alt="" class="img-responsive">
-          </a>
-          
-          <div class="card-text">
-            <h4><a href="http://example.org" target="_blank">External Project</a></h4>
-            <div class="card-desription">
-              <p>An example of linking directly to an external project website using <code>external_link</code>.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-
-    </div>
-
+        <div class="pub-list-item" style="margin-bottom: 1rem" itemscope itemtype="http://schema.org/Event">
+  <i class="fas fa-calendar-alt pub-icon" aria-hidden="true"></i>
+  <span itemprop="name"><a href="/talk/example-talk/">Example Talk</a></span>
+  <div itemprop="startDate">
+    
+    Jun 1, 2030
+    
+      1:00 PM
+    
+  </div>
+  <div class="talk-metadata">
+    
+            Academic Theme Conference
+    
+  </div>
+  <div class="talk-links">
     
 
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/slides/example-slides" target="_blank">
+  Slides
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/deep-learning/">
+    Project
+  </a>
+  
+
+
+
+  </div>
+</div>
+
+      
+    
   </div>
 </div>
 
@@ -1134,34 +1153,131 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
   
   
   
-  <section id="teaching" class="home-section">
+  <section id="contact" class="home-section">
     <div class="container">
       
 
 
+
+
 <div class="row">
-  
   <div class="col-12 col-lg-4 section-heading">
-    <h1>Teaching</h1>
+    <h1>People</h1>
     
   </div>
   <div class="col-12 col-lg-8">
-    <p>This is an example of using the <em>custom</em> widget to create your own homepage section.</p>
+    <p><h1 id="current-members">Current Members</h1>
 
-<p>I am a teaching instructor for the following courses at University X:</p>
+<p><br></p>
 
-<ul>
-<li>CS101: An intro to computer science</li>
-<li>CS102: An intro to computer science</li>
-<li>CS103: An intro to computer science</li>
-<li>CS104: An intro to computer science</li>
-<li>CS105: An intro to computer science</li>
-<li>CS106: An intro to computer science</li>
-<li>CS107: An intro to computer science</li>
-</ul>
+<div style="font-weight: bold; text-align: left"> Maia Lesosky, PhD </div>
+<img style="float: left;" src="img/maiapic.jpg">
+
+<div style="text-align: justify"> Biostatistician & Associate Professor, Division of Epidemiology & Biostatistics, School of Public Health, working with CIDRI-Africa (Wellcome Trust Centre), the HIV Diversity Group in the Dept. of Medical Virology and CIDER. Maia has previously worked as Senior Lecturer – Medical Statistics – in the Department of Medicine at the University of Cape Town, as Extraordinary Lecturer in the Faculty of Veterinary Sciences at the University of Pretoria and as a research fellow at the University of Edinburgh, Institutes of Evolutionary Biology, Immunology and Infections Research and the Roslin Institute and at the Institute of Mathematics, Aalto University. She completed her PhD in 2009 in the Department of Mathematics and Statistics at the University of Guelph, Canada with research on statistical inverse problems. Current interests are in supervised learning as related to cytokine and other biomarker assay profiles, particularly in TB disease progression and Bayesian mixture models for longitudinal HIV viral load data. Constant distractions are statistical graphics, ‘composite’ statistical methods, algorithmic statistical methods (aka machine learning) and R programming. </div>
+
+<p><br></p>
+
+<div style="font-weight: bold; text-align: right"> Elton Mukonda (PhD candidate, UCT) </div>
+<img style="float: right;" src="img/eltonpic.jpg">
+
+<div style="text-align: justify"> Elton currently works as a Data Manager and Analyst for CIDER (UCT). He is a trained demographer and also has experience working as a statistician. He completed his MPhil in Demography in 2015 at the Centre for Actuarial Research(CARe), University of Cape Town, with a research on estimating mortality for metropolitan populations in developing countries. Current interests include R programming, statistical learning, longitudinal data analysis, actuarial modelling and Bayesian Statistics. </div>
+
+<p><br></p>
+
+<div style="font-weight: bold; text-align: left"> Tracy Glass (PhD candidate, UCT) </div>
+<img style="float: left;" src="img/tracypic.png">
+
+<div style="text-align: justify"> Tracy currently works as a data analyst at the Division of Epidemiology and Biostatistics, UCT. She completed her masters in Public Health in 2016, specialising in epidemiology and biostatistics. She has previously worked as a research intern at the Burden of Disease Research Unit (BODRU), at the South African Medical Research Council. Her current interests include disease modelling. </div>
+
+<p><br></p>
+
+<div style="font-weight: bold; text-align: right"> Brian Rambau </div>
+<img style="float: right;" src="img/brianpic.jpg">
+
+<div style="text-align: justify"> Brian is enrolled in the MPH (Epidemiology and Biostatistics Track) and working as a research assistant. He has a BSc degree in Mathematics and Statistics from the University of Limpopo and an Honours Degree in Statistics with Sefako Makgatho University. Brian has previously worked with Statistics South Africa, in the Methodology, Standards and Research cluster. He has a long term aspiration and vision to be able to translate the theoretical concepts of statistics, mathematics and computation into real life tangible solutions for South Africa and Africa. </div>
+
+<p><br></p>
+
+<div style="font-weight: bold; text-align: left"> Vester Gunsaru </div>
+<img style="float: left;" src="img/vesterpic.jpg">
+
+<div style="text-align: justify"> Vester is enrolled in the Epidemiology and Biostatistics track of the MPH at UCT, and is working as a part time research assistant. She has a BSc and MSc in Mathematical Sciences (from AIMS) and is interested in statistical methods related to non-communicable disease. </div>
+
+<p><br></p>
+
+<div style="font-weight: bold; text-align: right"> Serita Ramdhani </div>
+<img style="float: right;" src="img/seritapic.jpg">
+
+<br> <div style="text-align: justify"> Serita is currently enrolled in the Epidemiology and Biostatistics track of the MPH at UCT, and is currently working as a part-time NRF Biostatistics Intern. She has a BSocSci in Psychology with a minor in Sociology from UCT. Serita is interested in statistical methods related to infectious diseases (HIV) and their affect on cognition. </div>
+
+<p><br></p>
+
+<p><strong>Dumsile Maduna</strong></p>
+
+<p><br></p>
+
+<div style="font-weight: bold; text-align: right"> Eke Arua </div>
+<img style="float: right;" src="img/ekepic.jpg">
+
+<br> <div style="text-align: justify"> Eke is currently in the Biostatistics track of the MPH at UCT. He has a BA (Economics and Statistics) and a MA (Statistics) from the University of Botswana. He is employed part-time as a research assistant in the department of Epidemiology and Biostatistics. His current interest lies in infant pneumonia and its associated risk factors. </div>
+
+<p><br></p>
+
+<p><strong>Kelechi Njoku</strong></p>
+
+<p><br></p>
+
+<div style="font-weight: bold; text-align: right"> Lilian Tuhumwire </div>
+<img style="float: right;" src="img/lilianpic.jpg">
+
+<div style="text-align: justify"> Lilian Tuhumwire is enrolled in the MPH (Epidemiology and Biostatistics) program and is currently working as a part-time Data Analyst. She has a BSc in Public Health with a minor in Maternal and Child Health from the University of South Florida. Lilian is interested in infectious diseases (HIV and TB) , particularly their implications on the lives of women and children. </div>
+
+<p><br></p>
+
+<h1 id="former-members">Former Members</h1>
+
+<p><strong>Justine Nasejje</strong> (PhD 2018, UKZN) Random survival forests an alternative method to the Cox Regression model in analyzing survival data with application. Justine is now working as a lecturer at Wits. See a nice write up here.</p>
+
+<p><strong>Karryn Brown</strong> (MPH 2018, UCT) HIV-related knowledge and antiretroviral therapy (ART) outcomes in HIV-infected women initiating ART during pregnancy</p>
+
+<p><strong>Jenna Oosthuizen</strong> (MPH 2018, UCT) Family planning behaviours among South African HIV-infected and HIV-uninfected women during the postpartum period</p>
+
+<p><strong>Kathryn Manning</strong> (MPH expected 2018, UCT)  Descriptive epidemiology and risk factors for wheeze in early childhood: The Drakenstein Child Health Study</p>
+
+<p><strong>Rae MacGinty</strong> (MPH 2017, UCT) Associations between maternal mental health and child wheeze through two years of age in a South African birth cohort. You can find the associated published manuscript <a href="https://doi.org/10.1002/ppul.24008" target="_blank">here</a></p>
+
+<p><br></p>
+
+<h1 id="collaborators">Collaborators</h1>
+
+<p><strong>IMPALA</strong> is the NIHR Global Health Research Unit on Lung Health and Tuberculosis in Africa at LSTM, led by Prof Bertie Squire, Dr Kevin Mortimer and Dr Angela Obasi.</p>
+
+<p><strong>Landon Myer, PhD</strong> Landon is an experienced epidemiologist with a research focus in infectious diseases (HIV/AIDS, TB and sexually transmitted infections), women’s health and social determinants of health.</p>
+</p>
+
+    <ul class="fa-ul" itemscope>
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+    </ul>
+
+    
 
   </div>
-  
 </div>
 
     </div>
@@ -1261,140 +1377,6 @@ summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
     <div id="search-hits">
       
     </div>
-
-  </div>
-</div>
-
-    </div>
-  </section>
-  
-
-  
-  
-  
-  <section id="contact" class="home-section">
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-12 col-lg-4 section-heading">
-    <h1>People</h1>
-    
-  </div>
-  <div class="col-12 col-lg-8">
-    <p><h1 id="current-members">Current Members</h1>
-
-<p><br></p>
-
-<div style="text-align: left"> Maia Lesosky, PhD </div>
-<img style="float: left;" src="img/maiapic.jpg">
-
-<div style="text-align: justify"> Biostatistician & Associate Professor, Division of Epidemiology & Biostatistics, School of Public Health, working with CIDRI-Africa (Wellcome Trust Centre), the HIV Diversity Group in the Dept. of Medical Virology and CIDER. Maia has previously worked as Senior Lecturer – Medical Statistics – in the Department of Medicine at the University of Cape Town, as Extraordinary Lecturer in the Faculty of Veterinary Sciences at the University of Pretoria and as a research fellow at the University of Edinburgh, Institutes of Evolutionary Biology, Immunology and Infections Research and the Roslin Institute and at the Institute of Mathematics, Aalto University. She completed her PhD in 2009 in the Department of Mathematics and Statistics at the University of Guelph, Canada with research on statistical inverse problems. Current interests are in supervised learning as related to cytokine and other biomarker assay profiles, particularly in TB disease progression and Bayesian mixture models for longitudinal HIV viral load data. Constant distractions are statistical graphics, ‘composite’ statistical methods, algorithmic statistical methods (aka machine learning) and R programming. </div>
-
-<p><br></p>
-
-<div style="text-align: right"> Elton Mukonda (PhD candidate, UCT) </div>
-<img style="float: right;" src="img/eltonpic.jpg">
-
-<div style="text-align: justify"> Elton currently works as a Data Manager and Analyst for CIDER (UCT). He is a trained demographer and also has experience working as a statistician. He completed his MPhil in Demography in 2015 at the Centre for Actuarial Research(CARe), University of Cape Town, with a research on estimating mortality for metropolitan populations in developing countries. Current interests include R programming, statistical learning, longitudinal data analysis, actuarial modelling and Bayesian Statistics. </div>
-
-<p><br></p>
-
-<div style="text-align: left"> Tracy Glass (PhD candidate, UCT) </div>
-<img style="float: left;" src="img/tracypic.png">
-
-<div style="text-align: justify"> Tracy currently works as a data analyst at the Division of Epidemiology and Biostatistics, UCT. She completed her masters in Public Health in 2016, specialising in epidemiology and biostatistics. She has previously worked as a research intern at the Burden of Disease Research Unit (BODRU), at the South African Medical Research Council. Her current interests include disease modelling. </div>
-
-<p><br></p>
-
-<div style="text-align: right"> Brian Rambau </div>
-<img style="float: right;" src="img/brianpic.jpg">
-
-<div style="text-align: justify"> Brian is enrolled in the MPH (Epidemiology and Biostatistics Track) and working as a research assistant. He has a BSc degree in Mathematics and Statistics from the University of Limpopo and an Honours Degree in Statistics with Sefako Makgatho University. Brian has previously worked with Statistics South Africa, in the Methodology, Standards and Research cluster. He has a long term aspiration and vision to be able to translate the theoretical concepts of statistics, mathematics and computation into real life tangible solutions for South Africa and Africa. </div>
-
-<p><br></p>
-
-<div style="text-align: left"> Vester Gunsaru </div>
-<img style="float: left;" src="img/vesterpic.jpg">
-
-<div style="text-align: justify"> Vester is enrolled in the Epidemiology and Biostatistics track of the MPH at UCT, and is working as a part time research assistant. She has a BSc and MSc in Mathematical Sciences (from AIMS) and is interested in statistical methods related to non-communicable disease. </div>
-
-<p><br></p>
-
-<div style="text-align: right"> Serita Ramdhani </div>
-<img style="float: right;" src="img/seritapic.jpg">
-
-<br> <div style="text-align: justify"> Serita is currently enrolled in the Epidemiology and Biostatistics track of the MPH at UCT, and is currently working as a part-time NRF Biostatistics Intern. She has a BSocSci in Psychology with a minor in Sociology from UCT. Serita is interested in statistical methods elated to infectious diseases (HIV) and their affect on cognition. </div>
-
-<p><br></p>
-
-<p>Dumsile Maduna</p>
-
-<p><br></p>
-
-<div style="text-align: right"> Eke Arua </div>
-<img style="float: right;" src="img/ekepic.jpg">
-
-<br> <div style="text-align: justify"> Eke is currently in the Biostatistics track of the MPH at UCT. He has a BA (Economics and Statistics) and a MA (Statistics) from the University of Botswana. He is employed part-time as a research assistant in the department of Epidemiology and Biostatistics. His current interest lies in infant pneumonia and its associated risk factors. </div>
-
-<p><br></p>
-
-<p>Kelechi Njoku</p>
-
-<p><br></p>
-
-<div style="text-align: right"> Lilian Tuhumwire </div>
-<img style="float: right;" src="img/lilianpic.jpg">
-
-<div style="text-align: justify"> Lilian Tuhumwire is enrolled in the MPH (Epidemiology and Biostatistics) program and is currently working as a part-time Data Analyst. She has a BSc in Public Health with a minor in Maternal and Child Health from the University of South Florida. Lilian is interested in infectious diseases (HIV and TB) , particularly their implications on the lives of women and children. </div>
-
-<p><br></p>
-
-<h1 id="former-members">Former Members</h1>
-
-<p>Justine Nasejje (PhD 2018, UKZN) Random survival forests an alternative method to the Cox Regression model in analyzing survival data with application. Justine is now working as a lecturer at Wits. See a nice write up here.</p>
-
-<p>Karryn Brown (MPH 2018, UCT) HIV-related knowledge and antiretroviral therapy (ART) outcomes in HIV-infected women initiating ART during pregnancy</p>
-
-<p>Jenna Oosthuizen (MPH 2018, UCT) Family planning behaviours among South African HIV-infected and HIV-uninfected women during the postpartum period</p>
-
-<p>Kathryn Manning (MPH expected 2018, UCT)  Descriptive epidemiology and risk factors for wheeze in early childhood: The Drakenstein Child Health Study</p>
-
-<p>Rae MacGinty (MPH 2017, UCT) Associations between maternal mental health and child wheeze through two years of age in a South African birth cohort. You can find the associated published manuscript <a href="https://doi.org/10.1002/ppul.24008" target="_blank">here</a></p>
-
-<p><br></p>
-
-<h1 id="collaborators">Collaborators</h1>
-
-<p>IMPALA is the NIHR Global Health Research Unit on Lung Health and Tuberculosis in Africa at LSTM, led by Prof Bertie Squire, Dr Kevin Mortimer and Dr Angela Obasi.</p>
-
-<p>Landon Myer, PhD Landon is an experienced epidemiologist with a research focus in infectious diseases (HIV/AIDS, TB and sexually transmitted infections), women’s health and social determinants of health.</p>
-</p>
-
-    <ul class="fa-ul" itemscope>
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-    </ul>
-
-    
 
   </div>
 </div>

@@ -34,9 +34,9 @@ weight = 7
   description = "100%"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "globe-africa"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Research"
+  description = "70%"
 
 +++

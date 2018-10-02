@@ -37,7 +37,7 @@
       
       <guid>/home/about/</guid>
       <description>About Us We are a collection of biostatisticians and students working on various topics in the Division of Epidemiology &amp;amp; Biostatistics, School of Public Health &amp;amp; Family Medicine at the University of Cape Town. Current research themes are around viral load monitoring and all of the associated statistical modelling of difficult longitudinal data.
-See the contact page for visiting and mailing address as well as other contact details. Email preferred.</description>
+We work with the Cape-R Users Group to promote R programming around the Cape and wider afield, please join if you are local to Cape Town - twitter: CapeRUser</description>
     </item>
     
     <item>
@@ -77,16 +77,16 @@ See the contact page for visiting and mailing address as well as other contact d
     </item>
     
     <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>/home/talks/</link>
+      <title>Projects</title>
+      <link>/home/projects/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/home/talks/</guid>
+      <guid>/home/projects/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Recent Posts</title>
+      <title>Outputs</title>
       <link>/home/posts/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
@@ -95,11 +95,11 @@ See the contact page for visiting and mailing address as well as other contact d
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>/home/projects/</link>
+      <title>Recent &amp; Upcoming Events</title>
+      <link>/home/talks/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
       
-      <guid>/home/projects/</guid>
+      <guid>/home/talks/</guid>
       <description></description>
     </item>
     
@@ -112,6 +112,16 @@ See the contact page for visiting and mailing address as well as other contact d
       <description>This is an example of using the custom widget to create your own homepage section.
 I am a teaching instructor for the following courses at University X:
  CS101: An intro to computer science CS102: An intro to computer science CS103: An intro to computer science CS104: An intro to computer science CS105: An intro to computer science CS106: An intro to computer science CS107: An intro to computer science  </description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description>Current Members 
+Maia Lesosky, PhD  Biostatistician &amp; Associate Professor, Division of Epidemiology &amp; Biostatistics, School of Public Health, working with CIDRI-Africa (Wellcome Trust Centre), the HIV Diversity Group in the Dept. of Medical Virology and CIDER. Maia has previously worked as Senior Lecturer – Medical Statistics – in the Department of Medicine at the University of Cape Town, as Extraordinary Lecturer in the Faculty of Veterinary Sciences at the University of Pretoria and as a research fellow at the University of Edinburgh, Institutes of Evolutionary Biology, Immunology and Infections Research and the Roslin Institute and at the Institute of Mathematics, Aalto University.</description>
     </item>
     
     <item>
@@ -130,16 +140,6 @@ I am a teaching instructor for the following courses at University X:
       
       <guid>/home/search/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>People</title>
-      <link>/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0200</pubDate>
-      
-      <guid>/home/contact/</guid>
-      <description>Current Members 
-Maia Lesosky, PhD  Biostatistician &amp; Associate Professor, Division of Epidemiology &amp; Biostatistics, School of Public Health, working with CIDRI-Africa (Wellcome Trust Centre), the HIV Diversity Group in the Dept. of Medical Virology and CIDER. Maia has previously worked as Senior Lecturer – Medical Statistics – in the Department of Medicine at the University of Cape Town, as Extraordinary Lecturer in the Faculty of Veterinary Sciences at the University of Pretoria and as a research fellow at the University of Edinburgh, Institutes of Evolutionary Biology, Immunology and Infections Research and the Roslin Institute and at the Institute of Mathematics, Aalto University.</description>
     </item>
     
   </channel>

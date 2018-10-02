@@ -15,6 +15,6 @@ We are a collection of biostatisticians and students working on various topics i
 
 
 
-See the [contact](https://maialesosky.wordpress.com/contact/) page for visiting and mailing address as well as other contact details. Email preferred. We work with the [Cape-R Users Group](https://caperuser.wordpress.com/) to promote R programming around the Cape and wider afield, please join if you are local to Cape Town - twitter: [CapeRUser](https://twitter.com/CapeRUser/) 
+We work with the [Cape-R Users Group](https://caperuser.wordpress.com/) to promote R programming around the Cape and wider afield, please join if you are local to Cape Town - twitter: [CapeRUser](https://twitter.com/CapeRUser/) 
 
 We also run a regular statistical methods seminar series on the Health Sciences Faculty – announced on web and via twitter:  [EpiBiostats_UCT](https://twitter.com/EpiBiostats_UCT/)
